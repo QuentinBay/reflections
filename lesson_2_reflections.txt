@@ -1,7 +1,38 @@
 Git commands learnt :
 -git init
 -git status
+-git add
+-git diff (diff between working area and staging area (after midifying a file))
+-git --stagged (diff between staging area and repository (after git add))
+-git commit
+-git branch branch-name (go to this branch -> git checkout branch-name)
+-git branch (to know what are the branches)
+-git checkout -b new_branch_name (after a commit from an old commit)
+
 
 What happens when you initialize a repository? Why do you need to do it?
 
 We create a meta-data repository .git to initialyze a log.
+
+
+How is the staging area different from the working directory and the repository? What value do
+you think it offers?
+
+It is a separated area you work on, you can therefore choose the files you want to commit.
+
+
+How can you use the staging area to make sure you have one commut per logical change?
+
+git diff --stagged ?
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When you are working on a particular version of the projet, a branch for each version.
+
+
+How do the diagrams help you visualize the branch structure?
+
+Daa.
+
+
