@@ -1,0 +1,7 @@
+Git commands learnt :
+-git init
+-git status
+
+What happens when you initialize a repository? Why do you need to do it?
+
+We create a meta-data repository .git to initialyze a log.
