@@ -8,6 +8,10 @@ Git commands learnt :
 -git branch branch-name (go to this branch -> git checkout branch-name)
 -git branch (to know what are the branches)
 -git checkout -b new_branch_name (after a commit from an old commit)
+-git show commitID (compares a commit to its parent)
+-git log --graph --oneline (to visualize a graph)
+-git log -n1 (display the last commit)
+
 
 
 What happens when you initialize a repository? Why do you need to do it?
@@ -36,3 +40,12 @@ How do the diagrams help you visualize the branch structure?
 Daa.
 
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+We add the work of different people together. It is representing depending on the time in the log.
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merging manually ?
+
+Automatic : bad idea when you are not done working on an experimental version that is not working correctly yet you
+don't want it to merge with the master branch that is operational.
