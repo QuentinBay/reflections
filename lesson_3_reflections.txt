@@ -5,3 +5,8 @@ git command lines learnt :
 -git push remote_name branch_name
 
 
+When would you want to use a remote repository rather than keeping all your work local?
+
+When you are working on a project with other people of if you are using different laptops to work on your projects.
+
+
