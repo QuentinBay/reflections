@@ -2,11 +2,33 @@ GITHUB
 git command lines learnt :
 -git remote [-v] (display the remotes)
 -git remote add remote_name URI..
--git push remote_name branch_name
+-git push remote_name branch_name (local -> github)
+-git pull remote_name branch_name (github -> local)
+-git fetch remote_name (when coflict between github and local, to update your local origin/master)
+
+Good to know :
+- git pull origin master = git fetch origin + git merge master origin/master
+- when resolving conflicts : 
+-> git merge origin/master master
+-> subl conflict_file
+-> git add
+-> git commit
 
 
 When would you want to use a remote repository rather than keeping all your work local?
 
 When you are working on a project with other people of if you are using different laptops to work on your projects.
 
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+If your are working on sth and sb else pushed if you pull automatically there will be some conflict.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are like clone but on GitHub. Clone is for making a copy of a repository. A branch is a different version of your project you work on.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
 
