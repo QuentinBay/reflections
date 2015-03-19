@@ -1,7 +1,7 @@
 GITHUB
 git command lines learnt :
 -git remote [-v] (display the remotes)
--git remote add URI..
+-git remote add remote_name URI..
 -git push remote_name branch_name
 
 
